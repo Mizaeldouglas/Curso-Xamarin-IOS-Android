@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="helloWorld.MainPage">
+
+    <StackLayout>
+        <Label Margin="20" Text="Ola Mundo!!" TextColor="#000" BackgroundColor="#c1c8c8" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" >
+        
+        </Label>
+
+    </StackLayout>
+
+</ContentPage>
+
