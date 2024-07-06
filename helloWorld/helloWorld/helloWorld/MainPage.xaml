@@ -4,9 +4,10 @@
              x:Class="helloWorld.MainPage">
 
     <StackLayout>
-        <Label Margin="20" Text="Ola Mundo!!" TextColor="#000" BackgroundColor="#c1c8c8" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" >
-        
-        </Label>
+
+        <Label Margin="60"  Text="Ola Mundo!!" TextColor="#000" BackgroundColor="#c1c8c8" HorizontalOptions="Center"/>
+        <Entry x:Name="TXTName" Keyboard="Numeric" ReturnType="Default" />
+        <Button Text="Clique Aqui!!" HorizontalOptions="Center" Clicked="Button_Clicked"/>
 
     </StackLayout>
 
